@@ -43,6 +43,6 @@ Y una vez creado puedes iniciar con
 
 - URL BASE (/boargame)
 
-| Name   | Endpoint | Method | Auth                                 | Body                                                                                                                  | Returns      |
-| ------ | -------- | ------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Create | /create  | POST   | Authorization header with Bear token | { title: String, genere: String, minPlayers: Number, maxPlayers: Number, playingTime: Number, //Minutes age: Number } | Bearer Token |
+| Name   | Endpoint | Method | Auth                                 | Body                                                                                                        | Returns      |
+| ------ | -------- | ------ | ------------------------------------ | ----------------------------------------------------------------------------------------------------------- | ------------ |
+| Create | /create  | POST   | Authorization header with Bear token | { title: String, genere: String, minPlayers: Number, maxPlayers: Number, playingTime: Number, age: Number } | Bearer Token |
