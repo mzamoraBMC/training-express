@@ -44,6 +44,6 @@ Arrancar el servicio:
 
 - URL BASE (/boargame)
 
-| Name   | Endpoint | Method | Auth                                 | Body                                                                                                        | Returns      |
-| ------ | -------- | ------ | ------------------------------------ | ----------------------------------------------------------------------------------------------------------- | ------------ |
-| Create | /create  | POST   | Authorization header with Bear token | { title: String, genere: String, minPlayers: Number, maxPlayers: Number, playingTime: Number, age: Number } | Bearer Token |
+| Name   | Endpoint | Method | Auth                                 | Body                                                                                                        | Returns          |
+| ------ | -------- | ------ | ------------------------------------ | ----------------------------------------------------------------------------------------------------------- | ---------------- |
+| Create | /create  | POST   | Authorization header with Bear token | { title: String, genere: String, minPlayers: Number, maxPlayers: Number, playingTime: Number, age: Number } | boardgame Object |
