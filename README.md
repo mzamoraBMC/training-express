@@ -40,9 +40,9 @@ Arrancar el servicio:
 | Login    | /login    | POST   | none                                 | {email:string, password:string}              | Bearer Token |
 | MyInfo   | /profile  | GET    | Authorization header with Bear token | none                                         | userInfo     |
 
-### Boargame
+### Boardgame
 
-- URL BASE (/boargame)
+- URL BASE (/boardgame)
 
 | Name   | Endpoint | Method | Auth                                 | Body                                                                                                        | Returns          |
 | ------ | -------- | ------ | ------------------------------------ | ----------------------------------------------------------------------------------------------------------- | ---------------- |
