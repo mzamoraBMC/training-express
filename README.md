@@ -19,10 +19,10 @@ Y una vez creado puedes iniciar con
 1. Crea un **.env**, en la raíz dle proyecto con la siguiente variable:
 
 <code>
-PORT=3000
-MONGO_URI=<TU URI DE MONGO>
-SECRET_WORD=<TU CADENA DE SEGURIDAD PARA HASHEAR LAS PASSWORD>
-ENV=<ENTORNO>
+PORT=[Tu puerto 3000]
+MONGO_URI=[TU URI DE MONGO]
+SECRET_WORD=[TU CADENA DE SEGURIDAD PARA HASHEAR LAS PASSWORD]
+ENV=[ENTORNO]
 </code>
 
 2. Puedes ver los ejemplos en las rutas:
