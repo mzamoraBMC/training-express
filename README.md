@@ -2,21 +2,13 @@
 
 Este proyecto es una muestra de una api de express con js y algunas pocas funcionalidades utilizadas para dar formación sobre node y express en BeMyCar
 
-## 🏁 Instalación
+## 🏁 Requisitos
 
-Instalar [Node.js](https://nodejs.org/en)
+Tener instalado [Node.js](https://nodejs.org/en).
 
-Lanzar el comando:
+Disponer de una bbdd [Mongo](https://www.mongodb.com/es/atlas) con conexión disponible mediante Uri.
 
-> npm install
-
-Y una vez creado puedes iniciar con
-
-> npm run start
-
-## 🗒️ Instrucciones
-
-1. Crea un **.env**, en la raíz del proyecto con la siguiente variable:
+Crear un archivo **.env**, en la raíz del proyecto con las siguientes variables:
 
 > PORT=[Tu puerto 3000]
 
@@ -26,9 +18,15 @@ Y una vez creado puedes iniciar con
 
 > ENV=[ENTORNO]
 
-2. Puedes ver los ejemplos en las rutas:
+## 📟 Comandos
 
-> http://localhost:3000/
+Instalación de dependencias:
+
+> npm install
+
+Arrancar el servicio:
+
+> npm run start
 
 ## 🙂 Entidades
 
